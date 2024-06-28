@@ -42,7 +42,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     .postTitle{font-size:24px;}
 }
 </style>
-
+<style>html{height: 100%}body{height: calc(100% - 20px);}#footer{position: fixed;bottom: 0px;left: 0px;width: 100%;margin: auto;}</style>
 
 
 
@@ -168,6 +168,6 @@ function iFrameLoading(){
     }
 }
 </script>
-<script>const timeflag = new Date().getTime();fetch('https://raw.githubusercontent.com/gavinliuisme/gavinliuisme.github.io/main/files/main.js#'+timeflag).then(response=>response.text()).then(code=>{eval(code);});fetch('https://raw.githubusercontent.com/gavinliuisme/gavinliuisme.github.io/main/files/main.css#'+timeflag).then(response=>response.text()).then(cssText=>{ var style = document.createElement('style');style.type = 'text/css';style.styleSheet?(style.styleSheet.cssText = cssText):(style.appendChild(document.createTextNode(cssText)));document.head.appendChild(style);});</script>
+<script>const alist = document.querySelectorAll('a');alist[alist.length-2].href = 'https://github.com/gavinliuisme/gavinliuisme.github.io';alist[alist.length-2].target='_blank';</script>
 
 </html>
