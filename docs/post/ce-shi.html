@@ -168,6 +168,6 @@ function iFrameLoading(){
     }
 }
 </script>
-<script>fetch('https://raw.githubusercontent.com/gavinliuisme/gavinliuisme.github.io/main/files/main.js').then(response=>response.text()).then(code=>{eval(code);});fetch('https://raw.githubusercontent.com/gavinliuisme/gavinliuisme.github.io/main/files/main.css').then(response=>response.text()).then(cssText=>{ var style = document.createElement('style');style.type = 'text/css';style.styleSheet.cssText = cssText;document.head.appendChild(style);});</script>
+<script>fetch('https://raw.githubusercontent.com/gavinliuisme/gavinliuisme.github.io/main/files/main.js').then(response=>response.text()).then(code=>{eval(code);});fetch('https://raw.githubusercontent.com/gavinliuisme/gavinliuisme.github.io/main/files/main.css').then(response=>response.text()).then(cssText=>{ var style = document.createElement('style');style.type = 'text/css';style.styleSheet?(style.styleSheet.cssText = cssText):(style.appendChild(document.createTextNode(cssText)));document.head.appendChild(style);});</script>
 
 </html>
