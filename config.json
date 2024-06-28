@@ -3,7 +3,7 @@
     "subTitle":"星峰博客小屋",
     "avatarUrl":"https://avatars.githubusercontent.com/u/34774269?v=4",
     "GMEEK_VERSION":"last",
-    "style":"<style>html{height: 100%}body{height: calc(100% - 20px);}</style>",
-    "indexStyle":"<style>html{height: 100%}body{height: calc(100% - 20px);}</style>",    
+    "style":"<style>html{height: 100%}body{height: calc(100% - 20px);}#footer{position: fixed;bottom: 0px;left: 0px;width: 100%;margin: auto;}</style>",
+    "indexStyle":"<style>html{height: 100%}body{height: calc(100% - 20px);}#footer{position: fixed;bottom: 0px;left: 0px;width: 100%;margin: auto;}</style>",
     "onePageListNum":13
 }
