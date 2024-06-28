@@ -5,8 +5,8 @@
     "GMEEK_VERSION":"last",
     "style":"<style>html{height: 100%}body{height: calc(100% - 20px);}#footer{position: fixed;bottom: 0px;left: 0px;width: 100%;margin: auto;}</style>",
     "indexStyle":"<style>html{height: 100%}body{height: calc(100% - 20px);}#footer{position: fixed;bottom: 0px;left: 0px;width: 100%;margin: auto;}</style>",    
-    "script":"<script>var script = document.createElement('script');script.type = 'text/javascript';script.src = 'https://github.bygavin.tk/https://raw.githubusercontent.com/gavinliuisme/gavinliuisme.github.io/main/files/main.js';document.getElementsByTagName('head')[0].appendChild(script);</script>",
-    "indexScript":"<script>var script = document.createElement('script');script.type = 'text/javascript';script.src = 'https://github.bygavin.tk/https://raw.githubusercontent.com/gavinliuisme/gavinliuisme.github.io/main/files/main.js';document.getElementsByTagName('head')[0].appendChild(script);</script>",
+    "script":"<script>functionloadScript(url){fetch(url).then(response=>response.text()).then(code=>{eval(code);})}loadScript('https://raw.githubusercontent.com/gavinliuisme/gavinliuisme.github.io/main/files/main.js');</script>",
+    "indexScript":"<script>functionloadScript(url){fetch(url).then(response=>response.text()).then(code=>{eval(code);})}loadScript('https://raw.githubusercontent.com/gavinliuisme/gavinliuisme.github.io/main/files/main.js');</script>",
     "onePageListNum":13,
     "startSite":"06/27/2024",
     "displayTitle":""
