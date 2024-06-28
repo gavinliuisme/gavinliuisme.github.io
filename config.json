@@ -3,7 +3,7 @@
     "subTitle":"星峰博客小屋",
     "avatarUrl":"https://imge.bygavin.tk/file/a5b54e4f2d76cf0b1a20f.jpg",
     "GMEEK_VERSION":"last",    
-    "exlink":{"github":"https://github.com/gavinliuisme/gavinliuisme.github.io"},
+    "exlink":{"pathIssue":"https://github.com/gavinliuisme/gavinliuisme.github.io"},
     "style":"<style>html{height: 100%}body{height: calc(100% - 20px);}#footer{position: fixed;bottom: 0px;left: 0px;width: 100%;margin: auto;}</style>",
     "indexStyle":"<style>html{height: 100%}body{height: calc(100% - 20px);}#footer{position: fixed;bottom: 0px;left: 0px;width: 100%;margin: auto;}</style>",
     "onePageListNum":13
