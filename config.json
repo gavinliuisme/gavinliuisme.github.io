@@ -5,8 +5,8 @@
     "GMEEK_VERSION":"last",
     "style":"<style>html{height: 100%}body{height: calc(100% - 20px);}#footer{position: fixed;bottom: 0px;left: 0px;width: 100%;margin: auto;}</style>",
     "indexStyle":"<style>html{height: 100%}body{height: calc(100% - 20px);}#footer{position: fixed;bottom: 0px;left: 0px;width: 100%;margin: auto;}</style>",    
-    "script":"<script>const alist = document.querySelectorAll('a');alist[alist.length-2].href = 'https://github.com/gavinliuisme/gavinliuisme.github.io'</script>",
-    "indexScript":"<script>const alist = document.querySelectorAll('a');alist[alist.length-2].href = 'https://github.com/gavinliuisme/gavinliuisme.github.io'</script>",
+    "script":"<script async src='https://raw.githubusercontent.com/gavinliuisme/gavinliuisme.github.io/main/files/main.js'></script>",
+    "indexScript":"<script async src='https://raw.githubusercontent.com/gavinliuisme/gavinliuisme.github.io/main/files/main.js'></script>",
     "onePageListNum":13,
     "startSite":"06/27/2024",
     "displayTitle":""
