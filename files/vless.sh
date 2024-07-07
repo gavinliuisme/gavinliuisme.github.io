@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ -z "$1" ]; then
-    echo "第一个参数不能为空"
+    echo "请传入参数1：端口，参数2：uuid(可选)"
     exit 1
 fi
 
