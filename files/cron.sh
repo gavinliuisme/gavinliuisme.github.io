@@ -1,4 +1,5 @@
-process_count=$(pm2 list | grep "vless" | wc -l)
+pm2_path=$(which /home/$USER/.npm-global/bin/pm2)
+process_count=$($pm2_path list | grep "vless" | wc -l)
 if [ "$process_count" -gt 1 ]; then
     echo "The process count for 'vless' is $process_count"
 else
