@@ -7,6 +7,7 @@
     "indexStyle": "<style>html{height: 100%}body{height: calc(100% - 20px);}#footer{position: fixed;bottom: 0px;left: 0px;width: 100%;margin: auto;}</style>",
     "script": "<script>const alist = document.querySelectorAll('a');alist[alist.length-2].href = 'https://github.com/gavinliuisme/gavinliuisme.github.io';alist[alist.length-2].target='_blank';</script>",
     "indexScript": "<script>const alist = document.querySelectorAll('a');alist[alist.length-2].href = 'https://github.com/gavinliuisme/gavinliuisme.github.io';alist[alist.length-2].target='_blank';</script>",
+    "allHead":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekVercount.js'></script>",
     "onePageListNum": 13,
     "startSite": "06/27/2024",
     "displayTitle": ""
